@@ -27,7 +27,7 @@ int processEvents(SDL_Window* window, SDL_FRect* rect) {
     return done;
 }
 
-void doRender(SDL_Renderer* renderer, SDL_FRect* rect, int r, int g, int b, int a) {
+void doRender(SDL_Renderer* renderer, SDL_FRect* rect, Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
 
@@ -70,8 +70,8 @@ int main(int argc, char* argv[]) {
 
     while (!done) {
         done = processEvents(window, &rect);
-        doRender(renderer, &rect, 255, 0, 0, 255);
-        /*Uint64 now = SDL_GetTicksNS();
+        //doRender(renderer, &rect, 255, 0, 0, 255);
+        Uint64 now = SDL_GetTicksNS();
         if ((now - lastChange) >= 1000000000ULL) {
             colorIndex = (colorIndex + 1) % 3;
             lastChange = now;
@@ -81,7 +81,7 @@ int main(int argc, char* argv[]) {
         case 0: doRender(renderer, &rect, 255, 0, 0, 255); break;
         case 1: doRender(renderer, &rect, 0, 255, 0, 255); break;
         case 2: doRender(renderer, &rect, 0, 0, 255, 255); break;
-        }*/
+        }
 
         SDL_Delay(16);
     }

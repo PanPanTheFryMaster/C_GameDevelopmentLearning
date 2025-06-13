@@ -45,7 +45,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -107,12 +107,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\SDL_FirstTest\libraries\SDL3-3.2.16\include\SDL3;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\SDL_FirstTest\libraries\SDL3-3.2.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\libraries\SDL3-3.2.16\include;$(ProjectDir)\libraries\SDL3-3.2.16\include\SDL3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\SDL_FirstTest\libraries\SDL3-3.2.16\lib\x64;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\SDL_FirstTest\libraries\SDL3-3.2.16\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libraries\SDL3-3.2.16\lib\x64;$(ProjectDir)\libraries\SDL3-3.2.16\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL3.lib;SDL3_test.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

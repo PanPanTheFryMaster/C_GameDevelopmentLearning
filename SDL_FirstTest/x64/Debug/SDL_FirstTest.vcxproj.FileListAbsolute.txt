@@ -1,0 +1,1 @@
+C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\SDL_FirstTest\x64\Debug\SDL_FirstTest.exe

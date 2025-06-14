@@ -1,0 +1,6 @@
+﻿  TextureRendering&Collision.c
+  character.c
+  utils.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TextureRendering&CollisionDetection\models\utils\utils.c(17,9): warning C4013: 'printf' non definita. Verrà considerata come esterna che restituisce un int.
+  Generazione del codice in corso...
+  TextureRendering&Collision.vcxproj -> C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TextureRendering&CollisionDetection\x64\Debug\TextureRendering&Collision.exe

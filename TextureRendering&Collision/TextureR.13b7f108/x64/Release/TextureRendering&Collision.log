@@ -1,0 +1,6 @@
+﻿  character.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TextureRendering&Collision\models\character\character.h(3,10): error C1083: Non è possibile aprire il file inclusione: 'SDL3/SDL.h': No such file or directory
+  (compilazione del file di origine 'models/character/character.c')
+  
+  TextureRendering&Collision.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TextureRendering&Collision\TextureRendering&Collision.c(1,10): error C1083: Non è possibile aprire il file inclusione: 'SDL3/SDL.h': No such file or directory

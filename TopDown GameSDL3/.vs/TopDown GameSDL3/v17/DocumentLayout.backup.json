@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48FD588-1532-462D-A89E-C25C2926A8CC}|TopDown GameSDL3.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\TopDown GameSDL3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E48FD588-1532-462D-A89E-C25C2926A8CC}|TopDown GameSDL3.vcxproj|solutionrelative:TopDown GameSDL3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48FD588-1532-462D-A89E-C25C2926A8CC}|TopDown GameSDL3.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\assets\\Char_Sprites\\char_spritesheet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{E48FD588-1532-462D-A89E-C25C2926A8CC}|TopDown GameSDL3.vcxproj|solutionrelative:assets\\Char_Sprites\\char_spritesheet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "char_spritesheet.png",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\assets\\Char_Sprites\\char_spritesheet.png",
+              "RelativeDocumentMoniker": "assets\\Char_Sprites\\char_spritesheet.png",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\assets\\Char_Sprites\\char_spritesheet.png",
+              "RelativeToolTip": "assets\\Char_Sprites\\char_spritesheet.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-19T21:17:09.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopDown GameSDL3.c",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\TopDown GameSDL3.c",
+              "RelativeDocumentMoniker": "TopDown GameSDL3.c",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TopDown GameSDL3\\TopDown GameSDL3.c",
+              "RelativeToolTip": "TopDown GameSDL3.c",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvzcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-19T20:42:16.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

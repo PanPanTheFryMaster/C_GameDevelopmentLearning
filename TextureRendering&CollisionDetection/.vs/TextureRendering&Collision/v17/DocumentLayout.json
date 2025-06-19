@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|solutionrelative:TextureRendering\u0026Collision.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|C:\\USERS\\ANTON\\DOCUMENTS\\GITHUB\\C_GAMEDEVELOPMENTLEARNING\\TEXTURERENDERING\u0026COLLISIONDETECTION\\MODELS\\CHARACTER\\CHARACTER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|solutionrelative:MODELS\\CHARACTER\\CHARACTER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\character\\character.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|solutionrelative:models\\character\\character.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|solutionrelative:models\\utils\\utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|C:\\USERS\\ANTON\\DOCUMENTS\\GITHUB\\C_GAMEDEVELOPMENTLEARNING\\TEXTURERENDERING\u0026COLLISIONDETECTION\\MODELS\\UTILS\\UTILS.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13B7F108-ED3F-4B6F-96B5-BBAE7CBDD98C}|TextureRendering\u0026Collision.vcxproj|solutionrelative:MODELS\\UTILS\\UTILS.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\character\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\character\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\utils\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\utils\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "character.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\character\\character.h",
               "RelativeDocumentMoniker": "models\\character\\character.h",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "models\\character\\character.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-14T14:26:05.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T14:26:05.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "character.c",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\character\\character.c",
               "RelativeDocumentMoniker": "models\\character\\character.c",
@@ -55,12 +54,11 @@
               "RelativeToolTip": "models\\character\\character.c",
               "ViewState": "AgIAABUAAAAAAAAAAAArwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-06-14T14:22:00.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T14:22:00.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "utils.c",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C_GameDevelopmentLearning\\TextureRendering\u0026CollisionDetection\\models\\utils\\utils.c",
               "RelativeDocumentMoniker": "models\\utils\\utils.c",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "models\\utils\\utils.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-06-14T13:45:40.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T13:45:40.929Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "models\\utils\\utils.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-14T13:45:35.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T13:45:35.28Z"
             },
             {
               "$type": "Document",

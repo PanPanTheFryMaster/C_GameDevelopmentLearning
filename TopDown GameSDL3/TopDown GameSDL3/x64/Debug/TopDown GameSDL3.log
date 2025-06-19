@@ -1,0 +1,4 @@
+﻿  TopDown GameSDL3.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3.c(18,55): warning C4047: 'funzione': 'SDL_WindowFlags' differisce da 'void *' nei livelli di riferimento indiretto
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3.c(18,55): warning C4024: 'SDL_CreateWindow': tipi diversi tra il parametro 4 formale e quello effettivo
+  TopDown GameSDL3.vcxproj -> C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.exe

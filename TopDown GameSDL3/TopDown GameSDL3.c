@@ -2,10 +2,48 @@
 #include "SDL_main.h"
 #include "SDL.h"
 #include "SDL_image.h"
+#include "entity.h"
+#include "player.h"
+
+
+
+
+
+
+#define RENDER_ENTITIES(entities, entities_count, renderer) \
+    for (int i = 0; i < (entities_count); i++) { \
+        (entities)[i].render(renderer); \
+    } \
+
+#define UPDATE_ENTITIES(entities, entities_count, delta_time) \
+    for (int i = 0; i < (entities_count); i++) { \
+        (entities)[i].update(delta_time); \
+    } \
+
+#define QUIT_ENTITIES(entities, entities_count) \
+    for (int i = 0; i < (entities_count); i++) { \
+        (entities)[i].quit(); \
+    } \
+
+#define HANDLE_EVENTS_ENTITIES(entities, entities_count, event) \
+    for (int i = 0; i < (entities_count); i++) { \
+        (entities)[i].handle_events(event); \
+    } \
+
+
+
 
 SDL_Window* window;
 SDL_Renderer* renderer;
-SDL_Texture* player_texture;
+
+
+Entity entities[MAX_ENTITIES];
+int entities_count = 0;
+
+Uint64 last_tick = 0;
+Uint64 current_tick = 0;
+float delta_time;
+
 
 
 // Inizializza applicazione e variabili
@@ -27,8 +65,9 @@ SDL_AppResult SDL_AppInit(void** appstate, int argc, char** argv) {
         return SDL_APP_FAILURE;
     }
 
-    const char path[] = "./char_spritesheet.png";
-    player_texture = IMG_LoadTexture(renderer, path);
+    // Init_player inside entites[];
+    entities[entities_count++] = init_player(renderer);
+    
     return SDL_APP_CONTINUE;
 }
 
@@ -45,22 +84,26 @@ SDL_AppResult SDL_AppEvent(void* appstate, SDL_Event* event) {
 }
 
 
-void update() {}
+void update() {
+    last_tick = current_tick;
+    current_tick = SDL_GetTicks();
+    delta_time = (current_tick - last_tick) / 1000.0f;
+    UPDATE_ENTITIES(entities, entities_count, delta_time);
+}
+
+
+
 
 void render() {
     SDL_RenderClear(renderer);
     SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
-    // Draw Character
-    SDL_FRect sprite_portion = { 17, 14, 15, 18 };
-    SDL_FRect player_position = { 250, 250, 15, 18 };
-    SDL_GetTextureScaleMode(player_texture, SDL_SCALEMODE_NEAREST);
-
-    SDL_RenderTexture(renderer, player_texture, &sprite_portion, &player_position);
+    RENDER_ENTITIES(entities, entities_count, renderer);
     SDL_RenderPresent(renderer);
 }
 
 // Loop di esecuzione
 SDL_AppResult SDL_AppIterate(void* appstate) { 
+    update();
     render();
     return SDL_APP_CONTINUE;
 }
@@ -70,6 +113,7 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
 
 // Deallocazione
 void SDL_AppQuit(void* appstate, SDL_AppResult result) {
+    QUIT_ENTITIES(entities, entities_count);
     SDL_DestroyRenderer(renderer);
     renderer = NULL;
     SDL_DestroyWindow(window);

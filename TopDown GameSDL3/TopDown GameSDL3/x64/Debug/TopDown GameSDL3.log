@@ -1,4 +1,14 @@
-﻿  TopDown GameSDL3.c
-C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3.c(18,55): warning C4047: 'funzione': 'SDL_WindowFlags' differisce da 'void *' nei livelli di riferimento indiretto
-C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3.c(18,55): warning C4024: 'SDL_CreateWindow': tipi diversi tra il parametro 4 formale e quello effettivo
+﻿  cleanup.c
+  entity.c
+  events.c
+  init.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\init.c(14,62): warning C4047: 'funzione': 'SDL_WindowFlags' differisce da 'void *' nei livelli di riferimento indiretto
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\init.c(14,62): warning C4024: 'SDL_CreateWindow': tipi diversi tra il parametro 4 formale e quello effettivo
+  iterate.c
+  player.c
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\player.c(21,12): warning C4113: 'void (__cdecl *)()' differisce da 'void (__cdecl *)(void)' nell'elenco di parametri
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\player.c(21,12): warning C4113: 'void (__cdecl *)()' differisce da 'void (__cdecl *)(SDL_Event *)' nell'elenco di parametri
+  render.c
+  update.c
+  Generazione del codice in corso...
   TopDown GameSDL3.vcxproj -> C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.exe

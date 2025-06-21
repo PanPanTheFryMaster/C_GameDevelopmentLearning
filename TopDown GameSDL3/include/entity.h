@@ -1,5 +1,5 @@
 #pragma once
-#include "SDL3/SDL.h";
+#include "SDL3/SDL.h"
 #define MAX_ENTITIES 100
 
 typedef struct {
@@ -8,3 +8,7 @@ typedef struct {
 	void(*update)(float);
 	void(*render)(SDL_Renderer*);
 }Entity;
+
+extern Entity entities[MAX_ENTITIES];
+extern int entities_count;
+

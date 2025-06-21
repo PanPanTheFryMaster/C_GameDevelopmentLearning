@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -130,8 +130,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="player.c" />
-    <ClCompile Include="TopDown GameSDL3.c" />
+    <ClCompile Include="src\cleanup.c" />
+    <ClCompile Include="src\entity.c" />
+    <ClCompile Include="src\events.c" />
+    <ClCompile Include="src\init.c" />
+    <ClCompile Include="src\iterate.c" />
+    <ClCompile Include="src\player.c" />
+    <ClCompile Include="src\render.c" />
+    <ClCompile Include="src\TopDown GameSDL3.c" />
+    <ClCompile Include="src\update.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\Char_Sprites\char_spritesheet.png" />

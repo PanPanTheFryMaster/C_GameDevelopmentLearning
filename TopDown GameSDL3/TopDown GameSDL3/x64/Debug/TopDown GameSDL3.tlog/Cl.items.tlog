@@ -1,1 +1,9 @@
-C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\cleanup.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\cleanup.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\entity.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\entity.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\events.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\events.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\init.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\init.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\iterate.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\iterate.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\player.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\player.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\render.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\render.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\TopDown GameSDL3.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.obj
+C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\update.c;C:\Users\anton\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\TopDown GameSDL3\x64\Debug\update.obj

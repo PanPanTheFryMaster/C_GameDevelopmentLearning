@@ -15,10 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TopDown GameSDL3.c">
+    <ClCompile Include="src\cleanup.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="player.c">
+    <ClCompile Include="src\entity.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iterate.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TopDown GameSDL3.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\update.c">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>

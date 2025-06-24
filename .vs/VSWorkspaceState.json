@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TopDown GameSDL3",
+    "\\TopDown GameSDL3\\src",
+    "\\TopDown GameSDL3\\src\\external"
   ],
-  "SelectedNode": "\\TopDown GameSDL3.sln",
+  "SelectedNode": "\\TopDown GameSDL3\\tiled",
   "PreviewInSolutionExplorer": false
 }

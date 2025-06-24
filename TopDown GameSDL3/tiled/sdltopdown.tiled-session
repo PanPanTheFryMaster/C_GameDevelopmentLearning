@@ -1,0 +1,42 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "map.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 238.75,
+                "y": 157.5
+            }
+        },
+        "map.tmx#Overworld_Tileset": {
+            "scaleInDock": 1
+        },
+        "map.tmx#water_tile_anim_strip_8": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/anton/Documents/GitHub/C_GameDevelopmentLearning/TopDown GameSDL3/tiled",
+    "last.imagePath": "C:/Users/anton/Documents/GitHub/C_GameDevelopmentLearning/TopDown GameSDL3",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileWidth": 16,
+    "openFiles": [
+        "map.tmx"
+    ],
+    "project": "sdltopdown.tiled-project",
+    "recentFiles": [
+        "map.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

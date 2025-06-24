@@ -26,16 +26,16 @@ Entity init_player(SDL_Renderer* renderer) {
 static void update(float delta_time) {
     const _Bool *kyboard_state = SDL_GetKeyboardState(NULL);
 
-    if (kyboard_state[SDL_SCANCODE_W]) {
+    if (kyboard_state[SDL_SCANCODE_W] || kyboard_state[SDL_SCANCODE_UP]) {
         position.y -= 120 * delta_time;
     }
-    if (kyboard_state[SDL_SCANCODE_S]) {
+    if (kyboard_state[SDL_SCANCODE_S] || kyboard_state[SDL_SCANCODE_DOWN]) {
         position.y += 120 * delta_time;
     }
-    if (kyboard_state[SDL_SCANCODE_A]) {
+    if (kyboard_state[SDL_SCANCODE_A] || kyboard_state[SDL_SCANCODE_LEFT]) {
         position.x -= 120 * delta_time;
     }
-    if (kyboard_state[SDL_SCANCODE_D]) {
+    if (kyboard_state[SDL_SCANCODE_D] || kyboard_state[SDL_SCANCODE_RIGHT]) {
         position.x += 120 * delta_time;
     }
 }

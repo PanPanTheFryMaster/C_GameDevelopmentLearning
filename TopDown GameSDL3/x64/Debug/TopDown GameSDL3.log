@@ -1,16 +1,4 @@
-﻿  cleanup.c
-  entity.c
-  events.c
-  init.c
-C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\init.c(14,66): warning C4047: 'function': 'SDL_WindowFlags' differs in levels of indirection from 'void *'
-C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\init.c(14,62): warning C4024: 'SDL_CreateWindow': different types for formal and actual parameter 4
-  iterate.c
-  player.c
+﻿  player.c
 C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\player.c(21,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
 C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\src\player.c(21,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(SDL_Event *)'
-  render.c
-  TopDown GameSDL3.c
-  update.c
-  Generating Code...
-  LINK : C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.exe not found or not built by the last incremental link; performing full link
   TopDown GameSDL3.vcxproj -> C:\Users\AntonioRenzullo\Documents\GitHub\C_GameDevelopmentLearning\TopDown GameSDL3\x64\Debug\TopDown GameSDL3.exe

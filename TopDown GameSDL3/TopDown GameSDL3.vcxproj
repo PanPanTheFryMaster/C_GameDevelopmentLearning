@@ -135,6 +135,7 @@
     <ClCompile Include="src\events.c" />
     <ClCompile Include="src\init.c" />
     <ClCompile Include="src\iterate.c" />
+    <ClCompile Include="src\map.c" />
     <ClCompile Include="src\player.c" />
     <ClCompile Include="src\render.c" />
     <ClCompile Include="src\TopDown GameSDL3.c" />

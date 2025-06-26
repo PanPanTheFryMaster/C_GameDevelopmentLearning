@@ -42,6 +42,9 @@
     <ClCompile Include="src\update.c">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="src\map.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\Char_Sprites\char_spritesheet.png">

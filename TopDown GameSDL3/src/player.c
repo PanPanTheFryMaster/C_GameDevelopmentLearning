@@ -18,7 +18,7 @@ Entity init_player(SDL_Renderer* renderer) {
     const char path[] = "./char_spritesheet.png";
     player_texture = IMG_LoadTexture(renderer, path);
 
-    Entity player = { .quit = quit, .handle_event = handle_events , .update = update, . render = render };
+    Entity player = { .cleanup = cleanup, .handle_event = handle_events , .update = update, . render = render };
     return player;
 }
 
